@@ -22,6 +22,11 @@ public class AllocationsApplication implements SampleApplication {
 
     @Parameter(names = "--max", description = "Max Numbers")
     private long max = 10_000_000L;
+	
+	public int add()
+	{
+		//hello
+	}
 
     private boolean isPrime(Long n) {
         //check if n is a multiple of 2
